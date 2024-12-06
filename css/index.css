@@ -256,7 +256,7 @@ footer {
 
 /* Button inside the overlay */
 .section-two .overlay .button {
-    color: #fff; /* Text color */
+    color: #000; /* Text color */
     padding: 10px 20px; /* Padding around button text */
     text-decoration:none; /* Remove underline */
     font-size: 15px; /* Font size for button */
