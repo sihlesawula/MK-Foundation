@@ -252,6 +252,17 @@ footer {
     font-size: 36px;
     margin-bottom: 20px; /* Adds space between heading and button */
 }
+
+
+/* Button inside the overlay */
+.section-two .overlay .button {
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around button text */
+    text-decoration:underline; /* Remove underline */
+    font-size: 15px; /* Font size for button */
+    display: inline-block; /* Ensures the button behaves like an inline element */
+}
+
 }
 
 
