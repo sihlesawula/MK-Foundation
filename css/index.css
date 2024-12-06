@@ -44,6 +44,17 @@ nav .logo {
     width:auto;
 }
 
+
+@media(max-width:768px){
+    .logo image{
+        align-items:left;
+        height:auto;
+        width:50px;
+    }
+}
+
+
+
 nav .nav-links {
     list-style: none;
     display: flex;
