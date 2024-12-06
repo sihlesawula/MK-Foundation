@@ -1,0 +1,288 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.The-chosen-healer{
+    text-decoration: none;
+    color:#fff;
+}
+
+/* Navbar */
+header {
+    background-color: #fff;
+    padding: 7px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo-image{
+    align-items:left;
+    height:50px;
+    width:auto;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin: 0 15px;
+}
+
+nav .nav-links a {
+    color: #000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .nav-links a:hover {
+    color: rgb(238, 8, 8);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero .background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Darker overlay */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+
+
+.hero h1:hover {
+    color:darkorange;
+}
+
+.welcome {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:block;
+    cursor:pointer;
+}
+
+.welcome:hover{
+    display:block;
+    color:darkorange;
+}
+
+
+
+/* Third Section */
+.section-one {
+    padding: 50px;
+    text-align: center;
+}
+
+.section-one h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section-one p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+
+/* Section Container */
+.section-two {
+    position: relative; /* Allows positioning of overlay on top of the image */
+    width: 100%;
+    height: 900px; /* You can adjust this height as needed */
+    overflow: hidden; /* Prevent any content from spilling outside the section */
+}
+
+/* Image */
+.section-two .section-image {
+    width: 100%; /* Ensure the image spans the full width */
+    height: 100%; /* Ensure the image spans the full height */
+    object-fit:fill; /* Ensure the image covers the entire section without distortion */
+    position: absolute; /* Positions the image at the background */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensures the image stays in the background */
+}
+
+/* Overlay */
+.section-two .overlay {
+    position: absolute; /* Positions the overlay on top of the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    z-index: 2; /* Ensures the overlay appears above the image */
+}
+
+/* Heading inside the overlay */
+.section-two .overlay h2 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Adds space between heading and button */
+}
+
+/* Button inside the overlay */
+.section-two .overlay .button {
+    background-color: #fff; /* Button color */
+    color: #000; /* Text color */
+    padding: 10px 20px; /* Padding around button text */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size for button */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Ensures the button behaves like an inline element */
+}
+
+.section-two .overlay .button:hover {
+    background-color: #000; /* Darken button on hover */
+    color: #fff;
+    transition: 0.6s;
+}
+
+
+
+
+
+@media(max-width:768px){
+    /* Section Container */
+.section-two {
+    position: relative; /* Allows positioning of overlay on top of the image */
+    width: 100%;
+    height: 450px; /* You can adjust this height as needed */
+    overflow: hidden; /* Prevent any content from spilling outside the section */
+}
+
+/* Image */
+.section-two .section-image {
+    width: 100%; /* Ensure the image spans the full width */
+    height: 100%; /* Ensure the image spans the full height */
+    object-fit:fill; /* Ensure the image covers the entire section without distortion */
+    position: absolute; /* Positions the image at the background */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensures the image stays in the background */
+}
+
+/* Overlay */
+.section-two .overlay {
+    position: absolute; /* Positions the overlay on top of the image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    z-index: 2; /* Ensures the overlay appears above the image */
+}
+
+/* Heading inside the overlay */
+.section-two .overlay h2 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Adds space between heading and button */
+}
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .section-two h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .section-two h2 {
+        font-size: 24px;
+    }
+}
