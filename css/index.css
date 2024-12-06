@@ -257,8 +257,10 @@ footer {
 /* Button inside the overlay */
 .section-two .overlay .button {
     color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around button text */
     text-decoration:underline; /* Remove underline */
     font-size: 15px; /* Font size for button */
+    display: inline-block; /* Ensures the button behaves like an inline element */
 }
 
 }
