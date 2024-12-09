@@ -40,9 +40,20 @@ nav .logo {
 
 .logo-image{
     align-items:left;
-    height:50px;
+    height:150px;
     width:auto;
 }
+
+
+@media(max-width:768px){
+    .logo image{
+        align-items:left;
+        height:auto;
+        width:50px;
+    }
+}
+
+
 
 nav .nav-links {
     list-style: none;
