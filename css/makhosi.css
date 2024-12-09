@@ -6,8 +6,9 @@
 }
 
 
-h1, .paragraph{
+.paragraph{
     padding:10%;
+    align-items: left;
 }
 
 html, body {
