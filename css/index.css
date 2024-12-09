@@ -107,25 +107,11 @@ nav .nav-links a:hover {
     padding: 20px;
 }
 
-.hero h1 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 75px;
-    margin-top: 250px;
-    margin-bottom: 20px;
-    cursor:pointer;
-}
-
-
-.hero h1:hover {
-    color:darkorange;
-}
-
-
 
 .hero h2 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 75px;
-    margin-top: 250px;
+    font-size: 100px;
+    margin-top: 500px;
     margin-bottom: 20px;
     cursor:pointer;
 }
