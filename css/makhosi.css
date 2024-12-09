@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+
+.paragraph{
+    padding:10%;
+}
+
 html, body {
     font-family: Arial, sans-serif;
 }
